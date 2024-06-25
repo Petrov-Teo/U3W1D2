@@ -1,6 +1,7 @@
 .App {
+  background-color: #8c8581c9;
   text-align: center;
-  background-color: hsla(201, 60%, 32%, 0.889);
+  /* background-color: #c7d9d8; */
 }
 
 .App-logo {
@@ -39,12 +40,22 @@
 }
 
 .cardImg {
-  width: 250px;
-  height: 300px;
+  width: 100%;
+  min-height: 200px;
   object-fit: scale-down;
 }
-.card {
-  background-color: #c4662f;
-  color: white;
+.cardBook {
+  background-color: #d8cdc6;
+  color: rgb(40, 36, 36);
   font-size: medium;
+  transition: 300ms;
+}
+.cardBook:hover {
+  transform: scale(1.1);
+  transition: 400ms;
+}
+
+.btnBay {
+  background-color: #575757;
+  color: whitesmoke;
 }

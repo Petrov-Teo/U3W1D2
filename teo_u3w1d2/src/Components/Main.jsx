@@ -10,13 +10,13 @@ class Main extends React.Component {
           <Col className="d-flex row justify-content-around">
             {fantasy.map((book) => {
               return (
-                <Card className="m-2 card" style={{ width: "19rem" }} key={`BOOK-${book.asin}`}>
+                <Card className="m-2 cardBook d-flex p-2" style={{ width: "21rem" }} key={`BOOK-${book.asin}`}>
                   <Card.Body>
                     <Card.Title>{book.title}</Card.Title>
                     <Card.Img className="cardImg" variant="top" src={book.img} />
                     <Card.Text>{book.category}</Card.Text>
                     <Card.Text> € {book.price}</Card.Text>
-                    <button className="btn btn-primary">Acquista</button>
+                    <button className="btn btnBay">Acquista</button>
                   </Card.Body>
                 </Card>
               );
