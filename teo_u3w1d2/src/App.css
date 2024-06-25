@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: hsla(201, 60%, 32%, 0.889);
 }
 
 .App-logo {
@@ -35,4 +36,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.cardImg {
+  width: 250px;
+  height: 300px;
+  object-fit: scale-down;
+}
+.card {
+  background-color: #c4662f;
+  color: white;
+  font-size: medium;
 }
