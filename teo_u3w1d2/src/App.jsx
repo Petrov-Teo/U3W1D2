@@ -3,6 +3,7 @@ import "./App.css";
 import MyNavBar from "./Components/MyNavBr";
 import Welcome from "./Components/Welcome";
 import Main from "./Components/Main";
+import Footer from "./Components/Footeer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <MyNavBar />
       <Welcome />
       <Main />
+      <Footer />
     </div>
   );
 }

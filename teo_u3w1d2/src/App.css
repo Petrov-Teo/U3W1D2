@@ -41,7 +41,7 @@
 
 .cardImg {
   width: 100%;
-  min-height: 200px;
+  height: 400px;
   object-fit: scale-down;
 }
 .cardBook {
@@ -58,4 +58,12 @@
 .btnBay {
   background-color: #575757;
   color: whitesmoke;
+}
+
+.btnBay:hover {
+  background-color: #575757;
+}
+
+.accordionHeader {
+  background-color: #575757;
 }
