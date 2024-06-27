@@ -19,10 +19,10 @@ class Main extends React.Component {
               value={this.state.searchBook}
               onChange={(e) => this.setState({ searchBook: e.target.value })}
             />
-            <SinglBook SinglBook={fantasy} />
+            <SinglBook />
           </Col>
         </Row>
-        <Row>{this.props.SinglBook.filter}</Row>
+        <Row></Row>
       </Container>
     );
   }
